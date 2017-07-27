@@ -1,0 +1,23 @@
+{
+  "description": "Example app from Using Node for UI Testing",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "union": "*",
+    "flatiron": "*",
+    "plates": "*",
+    "node-static": "*",
+    "nano": "~5.10.0"
+  },
+  "devDependencies": {
+    "api-easy": "*",
+    "vows": "*"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  },
+  "name": "ToDo",
+  "author": "Gary Smith",
+  "homepage": ""
+}
